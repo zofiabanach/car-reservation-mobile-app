@@ -1,0 +1,26 @@
+.centerCar {
+    background: rgb(171, 39, 39);
+    background: linear-gradient(126deg, rgba(171, 39, 39, 1) 0%, rgba(237, 141, 52, 1) 50%, rgba(131, 0, 255, 1) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.car {
+    text-align: center;
+    font-size: 180px;
+    text-shadow: 0 0 10px darkslategrey;
+}
+
+.app-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    display: table;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px darkslategrey;
+}

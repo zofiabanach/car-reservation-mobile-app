@@ -1,0 +1,59 @@
+{
+    "name": "car-reservation",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@cerebral/react": "^4.2.0",
+        "axios": "^0.19.0",
+        "babel-preset-react": "^6.24.1",
+        "cerebral": "^5.2.0",
+        "classnames": "^2.2.6",
+        "google-map-react": "^1.1.5",
+        "google-maps-react": "^2.0.2",
+        "mapbox-gl": "^1.6.1",
+        "moment": "^2.24.0",
+        "onsenui": "^2.10.10",
+        "page": "^1.11.5",
+        "react": "^16.12.0",
+        "react-calendar-mobile": "^0.1.6",
+        "react-datetime": "^2.16.3",
+        "react-dom": "^16.12.0",
+        "react-google-login": "^5.0.7",
+        "react-map-gl": "^5.2.1",
+        "react-mapbox-gl": "^4.8.2",
+        "react-mapbox-gl-geocoder": "^1.1.0",
+        "react-mobile-datepicker": "^4.0.2",
+        "react-moment": "^0.9.6",
+        "react-onsenui": "^1.11.2",
+        "react-places-autocomplete": "^7.2.1",
+        "react-scripts": "3.2.0",
+        "react-spring": "^8.0.27",
+        "react-time-picker": "^3.9.0",
+        "react-toast-notifications": "^2.4.0",
+        "serve": "^11.2.0",
+        "toasted-notes": "^3.2.0"
+    },
+    "scripts": {
+        "dev": "react-scripts start",
+        "start": "serve -s build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "heroku-postbuild": "npm run build"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

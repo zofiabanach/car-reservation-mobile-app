@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.centerLoading {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.mB5 {
+    margin-bottom: 5px;
+}
+
+.layer {
+    position: absolute;
+    z-index: 10000;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.buttom {
+    position: absolute;
+    bottom: 0;
+    z-index: 10000;
+    width: 100%;
+}
+
+.logoutDiv {
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    width: calc(100% - 50px);
+    bottom: 20px;
+}
